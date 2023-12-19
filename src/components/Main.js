@@ -19,23 +19,23 @@
 
 // export default Main;
 
-import React from 'react';
+import React, {useState} from 'react';
 import Sidebar from './Sidebar';
 import Page from './Page';
 import './Main.css';
 
 const Main = () => {
+  const [selectedState, setSelectedState] = useState(null);
   return (
     <div className='main'>
       <div className='sidebar'>
-        <Sidebar />
+        <Sidebar setSelectedState={setSelectedState} />
       </div>
       <div className='content'>
-        <Page />
+        <Page selectedState={selectedState} />
       </div>
     </div>
   );
 };
 
 export default Main;
-

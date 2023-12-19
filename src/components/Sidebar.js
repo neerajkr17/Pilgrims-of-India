@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import './Main.css';
 
-const Sidebar = () => {
-    const [selectedState, setSelectedState] = useState(null);
+const Sidebar = ({ setSelectedState }) => {
+    //const [selectedState, setSelectedState] = useState(null);
     const [searchQuery, setSearchQuery] = useState('');
     
     const states = [

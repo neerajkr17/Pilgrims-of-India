@@ -8,6 +8,10 @@
   padding: 20px;
 }
 
+.state-item{
+  cursor: pointer;
+}
+
 .content {
   flex: 1;
   display: flex;
