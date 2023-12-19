@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Pilgrims-of-India/static/css/main.d742350e.css",
+    "main.js": "/Pilgrims-of-India/static/js/main.8ddd6d2b.js",
+    "static/js/787.fda9b488.chunk.js": "/Pilgrims-of-India/static/js/787.fda9b488.chunk.js",
+    "index.html": "/Pilgrims-of-India/index.html",
+    "main.d742350e.css.map": "/Pilgrims-of-India/static/css/main.d742350e.css.map",
+    "main.8ddd6d2b.js.map": "/Pilgrims-of-India/static/js/main.8ddd6d2b.js.map",
+    "787.fda9b488.chunk.js.map": "/Pilgrims-of-India/static/js/787.fda9b488.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d742350e.css",
+    "static/js/main.8ddd6d2b.js"
+  ]
+}
